@@ -3,11 +3,12 @@ title:       Lập Trình Viên Blog
 email:       
 author:      
 description: "Blog của một lập trình viên. Nhằm chia sẻ kiến thức lập trình đến cho mọi người."
-baseurl:     ""
+baseurl:     "/LapTrinhVienBlog.github.io"
 url:         ""
 date_format: "%d/%m/%Y"
 header_pages:
  - about.md
+ - index.html
  - contact.html
 
 # Google services
@@ -65,12 +66,12 @@ telegram_username:
 vk_id:
 
 # Post sharing icons
-show_sharing_icons: false
+show_sharing_icons: true
 # Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: false
+share_facebook: true
+share_twitter: true
 share_googleplus: false
-share_linkedin: false
+share_linkedin: true
 share_digg: false
 share_tumblr: false
 share_reddit: false
