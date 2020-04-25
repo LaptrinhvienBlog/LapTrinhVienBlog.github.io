@@ -1,11 +1,11 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Lập Trình Viên Blog
+email:       
+author:      
+description: "Blog của một lập trình viên. Nhằm chia sẻ kiến thức lập trình đến cho mọi người."
 baseurl:     ""
-url:         "http://pixyll.com"
-date_format: "%b %-d, %Y"
+url:         ""
+date_format: "%d/%m/%Y"
 header_pages:
  - about.md
  - contact.html
