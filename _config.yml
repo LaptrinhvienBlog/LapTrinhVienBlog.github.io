@@ -3,8 +3,8 @@ title:       Lập Trình Viên Blog
 email:       amazingworkxyz@gmail.com
 author:      Lập trình viên
 description: "Blog của một lập trình viên. Nhằm chia sẻ kiến thức lập trình đến cho mọi người."
-baseurl:     "/LapTrinhVienBlog.github.io"
-url:         "/Home"
+baseurl:     ""
+url:         ""
 date_format: "%d/%m/%Y"
 header_pages:
  - about.md
