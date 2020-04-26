@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me
+title: Lập Trình Viên Blog
 permalink: /about/
 tags: about
 ---
