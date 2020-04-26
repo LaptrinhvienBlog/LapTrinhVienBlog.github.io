@@ -2,7 +2,7 @@
 layout: post
 title: Lập trình viên nên biết SQL (P1) Giới thiệu
 date: 2020-04-27 17:30
-summary: Bước đầu tìm hiểu về SQL.
+summary:
 categories: SQL Database
 ---
 
