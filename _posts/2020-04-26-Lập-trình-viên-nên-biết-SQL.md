@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Lập trình viên nên biết SQL (P1): Giới thiệu
