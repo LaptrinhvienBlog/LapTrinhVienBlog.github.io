@@ -8,6 +8,7 @@ categories: SQL Database
 ### Đề
 Nói về SQL thì gần ai học lập trình cũng đã từng làm việc hay chí ít là cũng từng nghe qua về nó. Đối với lập trình viên ở phía back-end thì mặc dù hiện nay đã có nhiều công nghệ thay thế (Như Entity Framework của .Net) nhưng SQL vẫn có thể coi là một yêu cầu bắt buộc trong tuyển dụng cũng như công việc. Series này nhằm giúp các bạn mới bắt đầu tìm hiểu có được những kiến thức từ cơ bản đến những khía cạnh "ngách" về SQL.
 
+![SQL](/images/Lap-trinh-vien-nen-biet-sql/sql.jpg)
 ### Thực
 SQL (viết tắt của Structure Query Language) là một ngôn ngữ truy vấn dữ liệu "mang tính cấu trúc". Nói vậy nghĩa là chỉ những hệ quản trị cơ sở dữ liệu (Database Management System - DBMS) quan hệ (có cấu trúc) như MS SQL, MySQL,... mới hỗ trợ truy vấn SQL trực tiếp. Tuy nhiên các hệ DBMS không quan hệ như MongoDB,... bằng cách này hay cách khác vẫn hỗ trợ một số lệnh SQL.
 Bên cạnh đó, có một điều cần lưu ý. Dù là một ngôn ngữ, nhưng SQL không thống nhất giữa các DBMS. Điều này cũng không cần phải lấy làm lạ vì nó đã khá là phổ biến trong ngành lập trình cũng giống như việc các ngôn ngữ lập trình không giống nhau tùy vào cách thực thi của trình biên dịch. Tuy nhiên nó vẫn khá tương đồng. Nội dung bài viết sẽ hướng trọng tâm đến MS SQL, tuy nhiên khi có thể mình vẫn sẽ để cách viết của các DBMS khác bên cạnh để các bạn tiện tham khảo và đánh giá.
@@ -22,7 +23,7 @@ Phiên bản Visual Studio mình sử dụng là 2019, các phiên bản khác c
 Đầu tiên các bạn mở Visual Studio Installer, đây là phần mềm đi kèm với Visual Studio khi cài đặt.  Bạn chọn Modify
 ![Visual Studi Install chọn Modify](/images/Lap-trinh-vien-nen-biet-sql/VSI-modify.png)
 Sau đó bạn tìm và tick vào SQL Server Data Tools. Nó nằm trong phần Data Storage and Processing hoặc Individual components.
-![Visual Studi Install chọn Modify](/images/Lap-trinh-vien-nen-biet-sql/VSI-sqlserver.png)
+![Visual Studi Install cài đặt SQL data tools](/images/Lap-trinh-vien-nen-biet-sql/VSI-sqlserver.png)
 Nếu bạn đã cài đặt nó từ trước thì có thể bỏ qua, nếu chưa thì bấm vào modify để cài đặt.
 Sau khi cài đặt xong thì bây giờ bạn có thể vào Visual Studio và tạo một Database Project để thực hiện tạo, quản lý và truy vấn cơ sở dữ liệu rồi.
 ### Kết
