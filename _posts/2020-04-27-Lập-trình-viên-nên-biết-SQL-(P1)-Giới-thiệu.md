@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Lập trình viên nên biết SQL (P1) Giới thiệu
+summary: Nói về SQL thì gần ai học lập trình cũng đã từng làm việc hay chí ít là cũng từng nghe qua về nó. Đối với lập trình viên ở phía back-end thì mặc dù hiện nay đã có nhiều công nghệ thay thế (Như Entity Framework của .Net) nhưng SQL vẫn có thể coi là một yêu cầu bắt buộc trong tuyển dụng cũng như công việc. Series này nhằm giúp các bạn mới bắt đầu tìm hiểu có được những kiến thức từ cơ bản đến những khía cạnh "ngách" về SQL.
 date: 2020-04-27 17:30
 categories: SQL Database
 ---
