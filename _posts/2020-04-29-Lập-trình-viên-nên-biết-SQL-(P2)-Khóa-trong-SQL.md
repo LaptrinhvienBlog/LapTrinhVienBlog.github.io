@@ -40,19 +40,23 @@ Vẫn lấy ví dụ ở trên
 MÃKHOA là một khóa
 TÊNKHOA là một khóa
 Cả hai khóa này đều là siêu khóa có một phần tử.
+
 ***Lưu ý***: 
 - Khóa chỉ cần có số lượng phần tử là ít nhất, không nhất thiết phải là 1 nên không phải khóa nào cũng có một phần tử. 
 - Một bộ dữ liệu có thể vừa có khóa có 1 phần tử, vừa có khóa có nhiều hơn 1 phần tử. Miễn là đảm bảo khóa không thể bỏ bớt đi thuộc tính nào.
 
 ### Primary key: Khóa chính
 Chúng ta đã thấy một bộ dữ liệu có thể có nhiều khóa. Do đó chúng ta cần chọn ra một trong số đó làm khóa chính. Khóa chính là do chúng ta chọn ra từ các khóa trong bảng, nên lựa chọn khóa có ít thuộc tính nhất.
-Ví dụ:
+
+***Ví dụ***:
 KHOA( <ins>MÃKHOA</ins>,TÊNKHOA,NĂMTL,PHÒNG,ĐIỆNTHOẠI,NGÀYNHẬNCHỨC)
 
 ### Reference: Tham chiếu
   
 Một bộ R1 có một thuộc tính nhận giá trị từ R. Ta nói R1 tham chiếu đến R
+
 ***Ví dụ:***
+
 KHOA( <ins>MÃKHOA</ins>,TÊNKHOA,NĂMTL,PHÒNG,ĐIỆNTHOẠI,NGÀYNHẬNCHỨC)
 DIADIEM(<ins>MKHOA</ins>, THANHPHO)
 DIADIEM có giá trị MKHOA nhận giá trị từ MÃKHOA của KHOA nên ta nói DIADIEM tham chiếu đến KHOA
@@ -70,7 +74,7 @@ Như vậy ta có nhận xét:
 
 ### Một ví dụ về cơ sở dữ liệu và các khóa
 Đây là một ví dụ hoàn chỉnh về cơ sở dữ liệu và các khóa. Các bạn nhớ kí hiệu gạch chân là khóa chính và mũi tên thể hiện quan hệ tham chiếu
-![Cơ sở dữ liệu quan hệ SQL](/images/Lap-trinh-vien-nen-biet-sql/CSDL_QH.jpg)
+![Cơ sở dữ liệu quan hệ SQL](/images/Lap-trinh-vien-nen-biet-sql/CSDL_QH.png)
 
 ### Kết
 Bài viết đã cung cấp cho các bạn các khái niệm cơ bản về khóa và mối quan hệ trong cơ sở dữ liệu. Trong các phần sau chúng ta sẽ bắt đầu viết lệnh SQL để tạo bảng cũng như truy vấn dữ liệu.
