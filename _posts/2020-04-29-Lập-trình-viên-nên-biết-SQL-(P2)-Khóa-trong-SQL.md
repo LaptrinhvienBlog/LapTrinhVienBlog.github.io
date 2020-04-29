@@ -27,6 +27,7 @@ MÃKHOA,TÊNKHOA,NĂMTL,PHÒNG,ĐIỆNTHOẠI,NGÀYNHẬNCHỨC là một siêu 
 
 ### Key: Khóa
 Như ở trên đã thấy, một bảng có thể có nhiều siêu khóa, cần chọn ra một siêu khóa để làm đặc trưng duy nhất cho dữ liệu. Khái niệm khóa ra đời.
+
 Khóa là siêu khóa có số lượng thuộc tính ít nhất.
 Hay tập K là khóa nếu:
 - K là một siêu khóa.
@@ -38,27 +39,36 @@ Vẫn lấy ví dụ ở trên
     KHOA(MÃKHOA,TÊNKHOA,NĂMTL,PHÒNG,ĐIỆNTHOẠI,NGÀYNHẬNCHỨC)
 
 MÃKHOA là một khóa
+
 TÊNKHOA là một khóa
+
 Cả hai khóa này đều là siêu khóa có một phần tử.
 
+
 ***Lưu ý***: 
+
 - Khóa chỉ cần có số lượng phần tử là ít nhất, không nhất thiết phải là 1 nên không phải khóa nào cũng có một phần tử. 
 - Một bộ dữ liệu có thể vừa có khóa có 1 phần tử, vừa có khóa có nhiều hơn 1 phần tử. Miễn là đảm bảo khóa không thể bỏ bớt đi thuộc tính nào.
 
 ### Primary key: Khóa chính
 Chúng ta đã thấy một bộ dữ liệu có thể có nhiều khóa. Do đó chúng ta cần chọn ra một trong số đó làm khóa chính. Khóa chính là do chúng ta chọn ra từ các khóa trong bảng, nên lựa chọn khóa có ít thuộc tính nhất.
 
+
 ***Ví dụ***:
+
 KHOA( <ins>MÃKHOA</ins>,TÊNKHOA,NĂMTL,PHÒNG,ĐIỆNTHOẠI,NGÀYNHẬNCHỨC)
 
 ### Reference: Tham chiếu
   
 Một bộ R1 có một thuộc tính nhận giá trị từ R. Ta nói R1 tham chiếu đến R
 
+
 ***Ví dụ:***
 
 KHOA( <ins>MÃKHOA</ins>,TÊNKHOA,NĂMTL,PHÒNG,ĐIỆNTHOẠI,NGÀYNHẬNCHỨC)
+
 DIADIEM(<ins>MKHOA</ins>, THANHPHO)
+
 DIADIEM có giá trị MKHOA nhận giá trị từ MÃKHOA của KHOA nên ta nói DIADIEM tham chiếu đến KHOA
 
 ### Foreign Key: Khóa ngoại
