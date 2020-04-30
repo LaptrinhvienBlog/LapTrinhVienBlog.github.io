@@ -20,7 +20,7 @@ Dict hay từ điển không phải là một khái niệm riêng của Python m
 d = {'Hello': 'Xin chao', 'Thanks': 'Cam on'}
 ```
 
-Ta được một dictionary trong Python gồm hai keys là ```'Hello'``` và  ```'Thanks'``` nhận values tương ứng là ```'Xin Chao'``` và ```Cam on``` 
+Ta được một dictionary trong Python gồm hai keys là ```'Hello'``` và  ```'Thanks'``` nhận values tương ứng là ```'Xin Chao'``` và ```'Cam on'``` 
 Để truy xuất thông tin của dict chúng ta sẽ sử dụng key giống như index của mảng.
 ```python
 print(d['Hello'])
@@ -80,6 +80,7 @@ dnew = {**d, **d1}
 Nhược điểm:
 - Không phải ai cũng hiểu bạn đang code cái gì.
 - Tạo một cảm giác rất C chứ không phải Python.
+
 ### Cách 3.9: Union operator - Toán tử hội
 Và trong phiên bản Python 3.9 sắp tới đây, chúng ta sẽ có thêm một cách nữa để giải quyết vấn đề trên.
 
@@ -89,6 +90,7 @@ Và cách viết dấu hội này trong Python
 dnew = d | d1
 ```
 Đọc thành lời là dnew bằng d hội d1. Và được hiểu là lấy tất cả phần tử nằm trong d hoặc d1.
+
 Thực ra kí hiệu này không mới trong Python, nó đã được dùng để hội hai tập hợp (set)
 ```python
 # Day la tap hop, khong phai dict
