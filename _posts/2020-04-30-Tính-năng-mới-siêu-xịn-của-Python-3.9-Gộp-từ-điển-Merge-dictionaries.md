@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tính năng mới siêu xịn của Python 3.9 Merging dictionaries
+title: Tính năng mới siêu xịn của Python 3.9 Gộp từ điển Merge dictionaries
 summary: Các ngôn ngữ lập trình liên tục phát triển và giới thiệu những tính năng mới cho phép lập trình viên được "lazy code" - viết ít code, chạy được nhiều. Python là một ngôn ngữ trẻ so với các bậc đàn anh lão làng trong ngành lập trình, nhưng đã nhận được sự chú ý đặc biệt từ cộng đồng. Mới đây, Python đã tung ra phiên bản mới nhất Python 3.9 với nhiều thay đổi hấp dẫn. Trong số đó thì Merging dictionary có thể coi là tính năng quan trọng nhất được giới thiệu trong bản cập nhật này.
 date: 2020-04-30 16:43
 categories: Programming Python
