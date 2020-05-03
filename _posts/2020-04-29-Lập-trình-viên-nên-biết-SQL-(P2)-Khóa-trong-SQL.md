@@ -89,4 +89,4 @@ Như vậy ta có nhận xét:
 ### Kết
 Bài viết đã cung cấp cho các bạn các khái niệm cơ bản về khóa và mối quan hệ trong cơ sở dữ liệu. Trong các phần sau chúng ta sẽ bắt đầu viết lệnh SQL để tạo bảng cũng như truy vấn dữ liệu.
 
-*Bài cùng Series:*[P1](https://laptrinhvienblog.github.io/sql/database/2020/04/27/L%E1%BA%ADp-tr%C3%ACnh-vi%C3%AAn-n%C3%AAn-bi%E1%BA%BFt-SQL-%28P1%29-Gi%E1%BB%9Bi-thi%E1%BB%87u/) P2
+*Bài cùng Series:*[P1](https://laptrinhvienblog.github.io/sql/database/2020/04/27/L%E1%BA%ADp-tr%C3%ACnh-vi%C3%AAn-n%C3%AAn-bi%E1%BA%BFt-SQL-%28P1%29-Gi%E1%BB%9Bi-thi%E1%BB%87u/) P2 [P3](https://laptrinhvienblog.github.io/sql/database/2020/05/03/L%E1%BA%ADp-tr%C3%ACnh-vi%C3%AAn-n%C3%AAn-bi%E1%BA%BFt-SQL-%28P3%29-Ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u-trong-SQL/)

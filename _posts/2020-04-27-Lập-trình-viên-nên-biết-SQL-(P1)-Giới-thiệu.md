@@ -31,4 +31,4 @@ Sau khi cài đặt xong thì bây giờ bạn có thể vào Visual Studio và 
 Bài viết này đã giúp các bạn có cái nhìn ban đầu về SQL và cài đặt công cụ để thực hành SQL.
 Trong những phần sau, chúng ta sẽ cùng tìm hiểu về cú pháp để xây dựng và truy vấn cơ sở dữ liệu bằng SQL.
 
-*Bài cùng Series:* P1 [P2](https://laptrinhvienblog.github.io/sql/database/2020/04/29/L%E1%BA%ADp-tr%C3%ACnh-vi%C3%AAn-n%C3%AAn-bi%E1%BA%BFt-SQL-%28P2%29-Kh%C3%B3a-trong-SQL/)
+*Bài cùng Series:* P1 [P2](https://laptrinhvienblog.github.io/sql/database/2020/04/29/L%E1%BA%ADp-tr%C3%ACnh-vi%C3%AAn-n%C3%AAn-bi%E1%BA%BFt-SQL-%28P2%29-Kh%C3%B3a-trong-SQL/) [P3](https://laptrinhvienblog.github.io/sql/database/2020/05/03/L%E1%BA%ADp-tr%C3%ACnh-vi%C3%AAn-n%C3%AAn-bi%E1%BA%BFt-SQL-%28P3%29-Ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u-trong-SQL/)
