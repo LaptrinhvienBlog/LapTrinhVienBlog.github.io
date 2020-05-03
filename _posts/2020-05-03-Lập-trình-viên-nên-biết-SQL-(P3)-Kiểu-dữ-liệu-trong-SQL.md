@@ -23,13 +23,16 @@ Cũng giống như lập trình, thì cơ sở dữ liệu cũng cần có các 
 
 ### Chuỗi nhị phân trong SQL
 
+
 | **Kiểu dữ liệu** | **Miền giá trị**                     | **Chú thích**                                                                                                                 |
 |------------------|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | BINARY(n)        | Chuỗi nhị phân gồm n bytes (cố định) | - n tối đa 8000<br> - Dữ liệu nhị phân<br> - Nếu dữ liệu nhập vào không đủ n bytes, tự động thêm khoảng trống để bù đủ.       |
 | VARBINARY(n)     | Chuỗi nhị gồm 0..n byte              | - n tối đa 8000<br> - Dữ liệu nhị phân<br> - Độ dài không cố định<br> - Dùng VARBINARY(max) để lưu chuỗi nhị phân lên đến 2GB |
 | IMAGE            | Chuỗi nhị phân tối đa 2GB            |  - Dữ liệu nhị phân<br> - Độ dài không cố định                                                                                |
 
+
 ### Kiểu số trong SQL
+
 
 | **Kiểu dữ liệu** | **Miền giá trị**                                                       | **Chú thích**                                                                                                                  |
 |------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
@@ -46,7 +49,10 @@ Cũng giống như lập trình, thì cơ sở dữ liệu cũng cần có các 
 | SMALLMONEY       | - 214,748.364 .. 214,748.3647                                          | - Biểu diễn thập phân chính xác hơn số FLOAT                                                                                   |
 | MONEY            | -922,337,203,685,477.5808 .. 922,337,203,685,477.5807                  | - Biểu diễn thập phân chính xác hơn số FLOAT                                                                                   |
 
+
 ### Kiểu ngày tháng và thời gian trong SQL
+
+
 | **Kiểu dữ liệu** | **Miền giá trị**                                                                               | **Chú thích**                                         |
 |------------------|------------------------------------------------------------------------------------------------|-------------------------------------------------------|
 | DATE             | '0001-01-01' .. '9999-12-31                                                                    | Định dạng YYYY-MM-DD                                  |
