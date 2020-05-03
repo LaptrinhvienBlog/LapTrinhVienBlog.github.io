@@ -57,3 +57,4 @@ Cũng giống như lập trình, thì cơ sở dữ liệu cũng cần có các 
 | DATETIMEOFFSET   | '0001-01-01 00:00:00' đến '9999-12-31 23:59:59.9999999'<br> Múi giờ lấy từ -14:00 đến +14:00.  | Định dạng YYYY-MM-DD hh:mm:ss[.nnnnnnn] [{+\|-}hh:mm] |
 
 
+*Bài cùng Series:*[P1](https://laptrinhvienblog.github.io/sql/database/2020/04/27/L%E1%BA%ADp-tr%C3%ACnh-vi%C3%AAn-n%C3%AAn-bi%E1%BA%BFt-SQL-%28P1%29-Gi%E1%BB%9Bi-thi%E1%BB%87u/) [P2](https://laptrinhvienblog.github.io/sql/database/2020/04/29/L%E1%BA%ADp-tr%C3%ACnh-vi%C3%AAn-n%C3%AAn-bi%E1%BA%BFt-SQL-%28P2%29-Kh%C3%B3a-trong-SQL/) P3
