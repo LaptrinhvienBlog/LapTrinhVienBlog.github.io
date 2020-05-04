@@ -59,7 +59,7 @@ layout: default
   <h3 class="related-post-title">{{ site.text.post.related_posts | default: "Related Posts" }}</h3>
   {% for post in site.related_posts %}
   	{% for post_cate in post.categories %}
-  		{% if post_cate in site.categories %}
+  		{% if site.categories contain post_cate %}
 		    <div class="post ml2">
 		      <a href="{{ post.url | relative_url }}" class="post-link">
 		        <h4 class="post-title">{{ post.title }}</h4>
