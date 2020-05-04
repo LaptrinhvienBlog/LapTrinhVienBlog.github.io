@@ -59,11 +59,11 @@ layout: default
   <h3 class="related-post-title">{{ site.text.post.related_posts | default: "Related Posts" }}</h3>
   {% for post in site.related_posts %}  	
   	{% for category in post.categories %}
-  		{% if site.categories contain category %}
+  		{% if site.categories contains category %}
   			<div class="post ml2">
 		      <a href="{{ post.url | relative_url }}" class="post-link">
 		        <h4 class="post-title">{{ post.title }}</h4>
-		        <p class="post-summary">{{ post.summary | truncate: 250 }}</p>
+		        <p class="post-summary">{{ post.summary }}</p>
 		      </a>
 		    </div>
   			{% break %}
