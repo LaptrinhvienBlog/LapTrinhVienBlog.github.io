@@ -8,7 +8,7 @@ categories: Programming Python
 
 Các ngôn ngữ lập trình liên tục phát triển và giới thiệu những tính năng mới cho phép lập trình viên được "lazy code" - viết ít code, chạy được nhiều. Python là một ngôn ngữ trẻ so với các bậc đàn anh lão làng trong ngành lập trình, nhưng đã nhận được sự chú ý đặc biệt từ cộng đồng. Mới đây, Python đã tung ra phiên bản mới nhất Python 3.9 với nhiều thay đổi hấp dẫn. Trong số đó thì Merging dictionary có thể coi là tính năng quan trọng nhất được giới thiệu trong bản cập nhật này.
 
-![Tính năng mới trong Python 3.9](https://lh3.googleusercontent.com/GfKVXaslf5LbFPDM8BLPDG6CrNRCpSVaFjrnKY__RtAtB2yQhmONYzOaG96jIRB_OwBwYlz3EeV8X3nnAyu8OI-LQkOFoP2h_618qeEOpOPghNTbD4AyHGZOHFL5OJ2CaIxjdqk_tbF5y2C-Y_kYnA7pBWqmSvgaiTxZXco09_HRR3ma7hVzZg13Bb9zi5fTF7Lw0vU4pwDUC5QBABi6CmL9P4FnSd1o4_P0c4Fd5vHhCSBxWOP_XCY_gIOLNK-2aqm5Y5rbFe80prqXoq6tiLzePMk7pYzg-poC1-_SPwJHjF6SDsX955-n8C24EOUfwTgU9FKopybKBVwQdiOMnQ5lNus2z6xihiHKfS2O93xXtSPYwC2TCd46LHRsGregq5RJXxXOLuEca8ETFdsbtA7vf33Yjat_xGVjygc7QlCOP8rJ1_YDUupv88rVMCCo_UZu5iAfbSOTP6OEc07h6gUDk5pX1aoP1i458ec9s5zPSTxhZqBhxkHHNRrerCSnchDsyllp8FVo3rBUwIoz5bMmKP4CDIdpihkLSWnb9yHiy3eX-qaBt3e2k8Wpe9LN0v8OPteWlR0OrjI4w-M8cD2fus_nWUbT627vmKAraFR8JoJJ03zkPozEn0YEvvfnPKMGtMPFC8wq18D971HLHAXm_j6pfDc--Q1JawmXd1vaOSRyG9sfWouNFrpjNA=w700-h298-no)
+![Tính năng mới trong Python 3.9](/images/Programming/Python3-9-Merging-Dict-pic.jpg)
 
 ### Python 3.9
 Python 3.9 hiện đã ở trong giai đoạn alpha và chuẩn bị ngấp nghé bước sang giai đoạn beta vào tháng 5 năm 2020, theo dự định thì bản chính thức sẽ được ra mắt vào tháng 10 cùng năm. Mọi người có thể xem lịch trình ra mắt của phiên bản này ở [đây](https://www.python.org/dev/peps/pep-0596/)
