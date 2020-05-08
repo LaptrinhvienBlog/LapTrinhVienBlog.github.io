@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lập trình viên nên biết SQL (P4) Tạo cơ sở dữ liệu và bảng
-summary: 
+summary: Dữ liệu là yếu tố không thể thiếu đối với bất kì mô hình quản lí nào. Dù là một tập đoàn, một công ty, hay chỉ là một cửa hàng nhỏ cũng cần có cách tổ chức và quản lý dữ liệu hiệu quả. Cơ sở dữ liệu và các hệ quản trị ra đời. Trong ngành lập trình, việc tạo lập, quản lý cơ sở dữ liệu cũng là yêu cầu bắt buộc đối với lập trình viên (nhất là lập trình viên backend). Trong bài viết này, mình sẽ bước đầu xây dựng một cơ sở dữ liệu và tạo các yếu tố cơ sở nhất chính là các bảng dữ liệu.
 date: 2020-05-03 15:02
 categories: SQL Database
 ---
