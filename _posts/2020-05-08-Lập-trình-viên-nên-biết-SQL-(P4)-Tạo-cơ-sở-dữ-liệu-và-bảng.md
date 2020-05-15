@@ -52,12 +52,15 @@ Và để cho nhất quán và tiện theo dõi, bài này mình sẽ cùng xây
 
 ### Tạo bảng
 Trước khi tạo bảng, bạn chạy lệnh
+
 ```SQL
 USE EMPLOYEE
 ```
+
 Để chuyển vào CSDL ```EMPLOYEE```. Sau lệnh này dữ liệu các bạn tạo sẽ nằm trong ```EMPLOYEE```
 
 Cú pháp tạo bảng như sau
+
 ```sql
 CREATE TABLE
 (
@@ -66,6 +69,7 @@ CREATE TABLE
 	...
 )
 ```
+
 Kiểu dữ liệu thì các bạn đã biết trong phần [trước](https://laptrinhvienblog.github.io/sql/database/2020/05/03/L%E1%BA%ADp-tr%C3%ACnh-vi%C3%AAn-n%C3%AAn-bi%E1%BA%BFt-SQL-%28P3%29-Ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u-trong-SQL/) rồi. Còn về ràng buộc thì có thể kể đến một số ràng buộc thường thấy như:
 - Ràng buộc khóa chính, khóa ngoại
 - Ràng buộc giá trị (CHECK)
@@ -73,6 +77,7 @@ Kiểu dữ liệu thì các bạn đã biết trong phần [trước](https://l
 - ...
 
 Mình sẽ tạo bảng EMPLOYEES như trong sơ đồ
+
 ```sql
 CREATE TABLE EMPLOYEES
 (
@@ -84,8 +89,10 @@ CREATE TABLE EMPLOYEES
 	HIRE_DATE DATE
 )
 ```
+
 Để thuận tiện cho việc quản lý lỗi, bạn có thể đưa các ràng buộc thành các đối tượng riêng với cột và đưa vào bảng.
 Ví dụ bảng salaries trong sơ đồ:
+
 ```SQL
 CREATE TABLE SALARIES
 (
@@ -100,6 +107,7 @@ CREATE TABLE SALARIES
 	CONSTRAINT SALARIES_FROM_TO CHECK (FROM_DATE <= TO_DATE)
 )
 ```
+
 ### Sửa bảng 
 Trong nhiều trường hợp, chúng ta muốn sửa cấu trúc bảng sau khi tạo. Chúng ta dùng lệnh
 ```sql
@@ -112,6 +120,7 @@ Có 3 lệnh sửa cơ bản:
 - Sửa kiểu dữ liệu cột
 
 ### Thêm
+
 ```sql
 -- THEM COT
 ALTER TABLE TENBANG
@@ -121,7 +130,9 @@ ADD TENCOT KIEUDULIEU
 ALTER TABLE TENBANG
 ADD CONSTRAINT TENRANGBUOC RANGBUOC
 ```
+
 Ví dụ
+
 ```sql
 ALTER TABLE SALARIES
 ADD DATE_RECEIVED DATE
@@ -129,7 +140,9 @@ ADD DATE_RECEIVED DATE
 ALTER TABLE SALARIES 
 ADD CONSTRAINT DR CHECK (DATE_RECEIVED BETWEEN FROM_DATE AND TO_DATE)
 ```
+
 ### Xóa 
+
 ```sql
 -- XOA COT
 ALTER TABLE TENBANG
@@ -139,7 +152,9 @@ DROP COLUMN TENCOT
 ALTER TABLE TENBANG
 DROP CONSTRAINT TENRANGBUOC
 ```
+
 Ví dụ:
+
 ```SQL
 ALTER TABLE SALARIES
 DROP CONSTRAINT DR
@@ -147,26 +162,32 @@ DROP CONSTRAINT DR
 ALTER TABLE SALARIES
 DROP COLUMN DATE_RECEIVED 
 ```
+
 ### Sửa
 Thay đổi kiểu dữ liệu của cột
+
 ```sql
 ALTER TABLE TENBANG
 ALTER COLUMN TENCOT KIEUDULIEUMOI
 ```
+
 ### .
 Một lý do khiến chúng ta thường dùng các lệnh thêm xóa sửa khi tạo bảng chính là ràng buộc khóa ngoại. Vì các bảng được tạo ra không đồng thời nên sẽ có một số ràng buộc khóa ngoại với các bảng chưa được tạo ra. Cách xử lí là chúng ta sẽ tạo bảng trước, sau đó mới thêm khóa ngoại.
 ### Ràng buộc khóa ngoại
 Trong sơ đồ các bảng ở trên, chúng ta đã tạo bảng ```EMPLOYEES``` và ```SALARIES```. Giữa chúng có một khóa ngoại là ```EMP_ID```.
 
 Chúng ta sẽ thêm ràng buộc khóa ngoại như sau:
+
 ```sql
 ALTER TABLE SALARIES
 ADD CONSTRAINT FK_SALARIES_EMPLOYEES FOREIGN KEY (EMP_NO) REFERENCES EMPLOYEES(EMP_NO)
 ```
+
 Vì khóa ngoại là của bảng ```SALARIES``` nên chúng ta sẽ thêm vào bảng này một khóa ngoại liên kết cột ```EMP_NO``` tham chiếu đến bảng ```EMPLOYEES``` cột ```EMP_NO```. (Lưu ý trùng tên, cột ```EMP_NO``` trước là của bảng ```SALARIES```, cột   ```EMP_NO``` sau là của bảng ```EMPLOYEES```)
 
 Chúng ta cũng có thể thêm khóa ngoại trực tiếp khi tạo bảng nếu tham chiếu của nó đến bảng đã tồn tại.
 Ví dụ bảng ```TITLES```
+
 ```sql
 CREATE TABLE TITLES
 (
@@ -180,7 +201,9 @@ CREATE TABLE TITLES
 	CONSTRAINT TITLES_FROM_TO CHECK (FROM_DATE <= TO_DATE)
 )
 ```
+
 Hoặc 
+
 ```SQL
 CREATE TABLE TITLES
 (
@@ -198,10 +221,12 @@ CREATE TABLE TITLES
 ### Xóa bảng, Xóa Database 
 Vì một lí do gì đó mà bạn muốn xỏa bảng, xóa Database?
 Dùng lệnh ```DROP``` như trên
+
 ```sql
 DROP TABLE TENBANG
 DROP DATABASE TENDB
 ```
+
 ### Kết
 Trong bài viết này, mình đã hướng dẫn các bạn xây dựng cấu trúc một database, tạo bảng và ràng buộc.
 Mình cũng đã code ví dụ một số bảng của sơ đồ ở trên. Các bạn nên tự code phần còn lại để tập luyện. Về cơ bản thì số lượng lệnh trong SQL cũng không nhiều và khá tương tự nhau nên việc nắm chắc cũng không có gì là khó.
