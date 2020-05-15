@@ -53,7 +53,7 @@ Và để cho nhất quán và tiện theo dõi, bài này mình sẽ cùng xây
 ### Tạo bảng
 Trước khi tạo bảng, bạn chạy lệnh
 
-```SQL
+```sql
 USE EMPLOYEE
 ```
 
@@ -93,7 +93,7 @@ CREATE TABLE EMPLOYEES
 Để thuận tiện cho việc quản lý lỗi, bạn có thể đưa các ràng buộc thành các đối tượng riêng với cột và đưa vào bảng.
 Ví dụ bảng salaries trong sơ đồ:
 
-```SQL
+```sql
 CREATE TABLE SALARIES
 (
 	EMP_NO INT FOREIGN KEY REFERENCES EMPLOYEES(EMP_NO) ,
@@ -155,7 +155,7 @@ DROP CONSTRAINT TENRANGBUOC
 
 Ví dụ:
 
-```SQL
+```sql
 ALTER TABLE SALARIES
 DROP CONSTRAINT DR
 
@@ -204,7 +204,7 @@ CREATE TABLE TITLES
 
 Hoặc 
 
-```SQL
+```sql
 CREATE TABLE TITLES
 (
 	EMP_NO INT,
