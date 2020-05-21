@@ -46,7 +46,7 @@ Như hình mình tạo CSDL ```EMPLOYEE```. Còn CSDL ```DemoDatabase``` là đ�
 
 Và để cho nhất quán và tiện theo dõi, bài này mình sẽ cùng xây dựng một cơ sở dữ liệu ```EMPLOYEE``` như hình
 
-![Tạo cơ sở dữ liệu SQL tạo bảng mô hình nhân viên](/images/Lap-trinh-vien-nen-biet-sql/Employee-model-sql.jpg)
+![Tạo cơ sở dữ liệu SQL tạo bảng mô hình nhân viên](/images/Lap-trinh-vien-nen-biet-sql/Employee-model-sql.png)
 
 *Mô hình được lấy từ sample của mySQL. Đừng quan tâm đến phần indexes, mình sẽ nói sau.*
 
