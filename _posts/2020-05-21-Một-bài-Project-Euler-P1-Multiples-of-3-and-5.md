@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Một bài Project Euler P1 Multiples of 3 and 5
-summary: Trong thời gian rảnh rỗi, làm lập trình viên như mình để nâng cao khả năng, củng cố kĩ năng ngoài làm một vài side project hay ho thì cũng có thể làm mấy bài thuật toán như thế này hay phết. Vừa luyện được tư duy, vừa rèn kĩ năng giải quyết vấn đề, lựa chọn giải pháp. Bài toán của kì này chính là Project Euler #1 Multiples of 3 and 5.
-Bên cạnh đó, qua bài này mình cũng muốn rút ra quan điểm của mình về một vấn đề cũng gây tranh cãi rất nhiều trong ngành lập trình. Lập trình viên có cần phải biết làm toán hay không?
+summary: Trong thời gian rảnh rỗi, làm lập trình viên như mình để nâng cao khả năng, củng cố kĩ năng ngoài làm một vài side project hay ho thì cũng có thể làm mấy bài thuật toán như thế này hay phết. Vừa luyện được tư duy, vừa rèn kĩ năng giải quyết vấn đề, lựa chọn giải pháp. Bài toán của kì này chính là Project Euler #1 Multiples of 3 and 5.Bên cạnh đó, qua bài này mình cũng muốn rút ra quan điểm của mình về một vấn đề cũng gây tranh cãi rất nhiều trong ngành lập trình. Lập trình viên có cần phải biết làm toán hay không?
 date: 2020-05-21 14:08
 categories: Programming Algorithm
 ---
