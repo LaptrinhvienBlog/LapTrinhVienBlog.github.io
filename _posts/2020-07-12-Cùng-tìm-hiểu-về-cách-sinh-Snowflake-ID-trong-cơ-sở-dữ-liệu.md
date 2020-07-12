@@ -19,8 +19,10 @@ Có hai chuẩn UUID phổ biến là UUID 1 và UUID 4.
 - UUID 1 sẽ sinh chuỗi này dựa trên địa chỉ MAC và thời gian yêu cầu sinh ID
 *Ví dụ 5 UUID được sinh cho cùng 1 máy, lưu ý đây là 32 số Hexa tương đương 128 bits*
 ![UUID sinh ID trên hệ quản trị cơ sở dữ liệu Snowflake ID](https://lh3.googleusercontent.com/oIg5_CuANXpwhDx01zVK7uWSbMXVl_N8IE3uvZW0WOWEq07w_huLCqUB3hywJikD1Swa75817PSIDEafA2J8hjlZB_n_h37OkHLynE0Yc9AYb_v1egGrF4F3cCEcovdd5OeHJfsa8A=w2400)
+
 Các bạn sẽ dễ dàng nhận ra, cả 5 ID này nhìn tương tự nhau vì nó cùng dùng một MAC address để sinh.
 - UUID 4 sẽ sinh chuỗi này dựa trên một số ngẫu nhiên. Sinh số ngẫu nhiên này tất nhiên không dùng hàm rand() như trong C rồi. Còn sinh như thế nào thì lại hẹn các bạn vào bài viết khác.
+
 *Ví dụ 5 UUID được sinh cho cùng 1 máy*
 ![UUID sinh ID trên hệ quản trị cơ sở dữ liệu Snowflake ID](https://lh3.googleusercontent.com/C2yrDedJBu5aa9Rcfn_9OBTKxYyY_fqbBIkd_y09g3zuZL23L0NBNWGobYuSNQz6tNoDslBjggPr4SqpfLY2Jp62mohkGcjoG3IiYVJYIbmmjO2inEvwYIFpYeyHyIiodsHpl7jJig=w2400)
 
