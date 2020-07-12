@@ -50,6 +50,6 @@ Chúng ta phải tự sinh ID như thế nảo? Chúng ta phải sinh ID đảm 
 
 Chúng ta có thể sinh số ngẫu nhiên (hoặc chuỗi ngẫu nhiên) không? Không. Vì ngẫu nhiên không có nghĩa là không lặp lại.
 
-Vậy chúng ta làm thế nào? Làm thế nào thì bài đã dài rồi, hẹn các bạn trong bài viết sau.
+Vậy chúng ta làm thế nào? Làm thế nào thì bài đã dài rồi, hẹn các bạn trong [bài viết sau](https://laptrinhvienblog.github.io/sql/database/2020/07/12/C%C3%B9ng-t%C3%ACm-hi%E1%BB%83u-v%E1%BB%81-c%C3%A1ch-sinh-Snowflake-ID-trong-c%C6%A1-s%E1%BB%9F-d%E1%BB%AF-li%E1%BB%87u/).
 
 
