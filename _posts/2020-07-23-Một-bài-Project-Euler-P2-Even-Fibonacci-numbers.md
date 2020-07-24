@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Một bài Project Euler #2 Even Fibonacci numbers
+title: Một bài Project Euler P2 Even Fibonacci numbers
 summary: Lại là mình, một lập trình viên trong một ngày rảnh rỗi và lại lôi hackerrank ra luyện gõ phím. Với tham vọng sẽ giải hết 254 bài trong project Euler của Hackerrank và viết về hành trình này đến cho các bạn, hôm nay mình sẽ đến với bài số 2 của cuộc hành trình.
 date: 2020-07-23 22:10
 categories: Programming Algorithm
